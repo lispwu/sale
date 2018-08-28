@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface OpportunityService {
 
-    int createOpportunity(OpportunityDTO opportunityDTO);
-
     List<OpportunityDTO> getAll(OpportunityDTO opportunityDTO);
+
+    void save(OpportunityDTO opportunityDTO);
 }

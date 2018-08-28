@@ -16,3 +16,13 @@ mapper:
     mappers: com.crmww.sale.util.MyMapper
     not-empty: false
     identity: MYSQLs
+
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+logging:
+  config: classpath:logback-spring.xml
+  path: D:/saleLog
